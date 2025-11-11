@@ -1,0 +1,16 @@
+%%writefile bridge-monitoring-pyspark/.gitignore
+# Spark / streaming outputs
+streams/
+bronze/
+silver/
+gold/
+checkpoints/
+exports/
+gold_snapshot/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS / editor noise
+.DS_Store
+*.swp
